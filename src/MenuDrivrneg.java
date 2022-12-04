@@ -58,6 +58,6 @@ public class MenuDrivrneg {
         int deid = s.nextInt();
         PreparedStatement pst = con.prepareStatement("delete from menudriven where eid = ?");
         pst.setInt(1, deid);
-        pst.executeUpdate();
+        pst.executeUpdate(); 
     }
 }
